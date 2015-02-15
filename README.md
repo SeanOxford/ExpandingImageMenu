@@ -2,12 +2,15 @@
 This library allows for a cropped-image menu to expand into fragments/layouts for a professional look and feel. 
 
 Potato-quality demo gif:
+
 ![Alt text](https://github.com/SeanOxford/ExpandingImageMenu/blob/master/images/demo.gif?raw=true)
 
 
 ## Usage
 
 ### 1.)
+
+Place the CustomRelativeLayout into an XML file wherever you'd like.
 
 		<?xml version="1.0" encoding="utf-8"?>
 		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,7 +40,7 @@ Potato-quality demo gif:
 				android:text="Android Developer" />
 
 
-			<com.seanoxford.resume.customviews.CustomRelativeLayout
+			<com.seanoxford.expandingimagemenu.views.CustomRelativeLayout
 				android:layout_below="@id/tv_android_developer"
 				android:id="@+id/ll_about_me"
 				android:layout_alignParentBottom="true"
@@ -45,7 +48,7 @@ Potato-quality demo gif:
 				android:splitMotionEvents="false"
 				android:layout_height="match_parent">
 
-			</com.seanoxford.resume.customviews.CustomRelativeLayout>
+			</com.seanoxford.expandingimagemenu.views.CustomRelativeLayout>
 		</RelativeLayout>
 
 
