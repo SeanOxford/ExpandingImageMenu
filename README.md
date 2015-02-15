@@ -2,7 +2,7 @@
 This library allows for a cropped-image menu to expand into fragments/layouts for a professional look and feel.
 
 
-![Alt text](https://github.com/SeanOxford/ExpandingImageMenu/tree/master/images/demo.gif)
+![Alt text](https://github.com/SeanOxford/ExpandingImageMenu/blob/master/images/demo.gif?raw=true)
 
 
 ## Usage
