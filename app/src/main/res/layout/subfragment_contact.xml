@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="15dp"
+    android:weightSum="60">
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        style="@style/InfoTextHeaderStyle"
+        android:id="@+id/tv_contact_address"
+        android:text="Address" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_contact_address_detail"
+        style="@style/InfoTextDetailStyle"
+        android:textSize="@dimen/detail_text_size"
+        android:text="2156 Sloat Boulevard\nSan Francisco, CA 94116" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_contact_phone"
+        style="@style/InfoTextHeaderStyle"
+        android:text="Phone" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_contact_phone_detail"
+        android:paddingBottom="5dp"
+        style="@style/InfoTextDetailStyle"
+        android:textSize="@dimen/contact_detail_text_size"
+        android:maxLines="1"
+        android:text="(760) 504-7920" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_contact_email"
+        style="@style/InfoTextHeaderStyle"
+        android:text="Email" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_contact_email_detail"
+        style="@style/InfoTextDetailStyle"
+        android:textSize="@dimen/contact_detail_text_size"
+        android:maxLines="1"
+        android:text="oxford.sean@gmail.com" />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="textSizing" format="enum">
+            <enum name="full" value="0"/>
+            <enum name="half" value="1"/>
+        </attr>
+        <attr name="typeFace" format="enum">
+
+        </attr>
+    </declare-styleable>
+</resources>

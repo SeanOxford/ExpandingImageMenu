@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <com.seanoxford.resume.customviews.CustomTextView
+        style="@style/InfoTextHeaderStyle"
+        android:id="@+id/tv_exp_mobilesent"
+        android:layout_weight="10"
+        android:text="Mobile Sentience, LLC" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        style="@style/InfoTextDetailStyle"
+        android:id="@+id/tv_exp_mobilesent_detail"
+        android:layout_weight="25"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:text="Android Developer\nSan Francisco, CA\nMay 2013 - Nov 2014" />
+
+    <com.seanoxford.resume.customviews.CustomTextView
+        style="@style/InfoTextHeaderStyle"
+        android:id="@+id/tv_exp_responsibilities"
+        android:layout_weight="10"
+        android:text="Responsibilities" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        style="@style/InfoTextDetailStyle"
+        android:id="@+id/tv_exp_responsibilities_detail"
+        android:layout_weight="55"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:text="Android Developer\nSanFrancisco, CA\nMay 2013-Nov 2014" />
+
+
+</LinearLayout>

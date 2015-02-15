@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="InfoTextHeaderStyle" parent="android:Theme.Holo.Light">
+        <item name="textSizing">full</item>
+        <!--<item name="android:background">#004400</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">8</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="InfoTextDetailStyle" parent="android:Theme.Holo.Light">
+        <!--<item name="android:background">#005500</item>-->
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">12</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:fontFamily">sans-serif-thin</item>-->
+        <!--<item name="android:layout_gravity">center</item>-->
+        <item name="android:textSize">@dimen/detail_text_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+
+</resources>

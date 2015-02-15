@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="15dp"
+    android:weightSum="60">
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        style="@style/InfoTextHeaderStyle"
+        android:id="@+id/tv_education_school"
+        android:text="School" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_education_school_detail"
+        style="@style/InfoTextDetailStyle"
+        android:textSize="@dimen/detail_text_size"
+        android:text="San Francisco State University\n2010-2013" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_education_gpa"
+        style="@style/InfoTextHeaderStyle"
+        android:text="GPA" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_education_gpa_detail"
+        android:paddingBottom="5dp"
+        style="@style/InfoTextDetailStyle"
+        android:textSize="@dimen/contact_detail_text_size"
+        android:maxLines="1"
+        android:text="3.34" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_education_degree"
+        style="@style/InfoTextHeaderStyle"
+        android:text="Degree" />
+
+    <com.seanoxford.resume.customviews.AutoResizeTextView
+        android:id="@+id/tv_education_degree_detail"
+        style="@style/InfoTextDetailStyle"
+        android:textSize="@dimen/detail_text_size"
+        android:text="Bachelor of Business Administration" />
+
+
+</LinearLayout>
