@@ -1,5 +1,0 @@
-<root>
-    <item name='android.os.AsyncTask'>
-        <annotation name='org.jetbrains.annotations.NotNull' />
-    </item>
-</root>
